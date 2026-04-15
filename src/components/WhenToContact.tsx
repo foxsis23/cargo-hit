@@ -1,12 +1,13 @@
 import Image from "next/image";
-import { Package, User, Shield, Camera } from "lucide-react";
+import { Package, User, Shield, Camera, HeartPulse } from "lucide-react";
 import SectionTitle from "./SectionTitle";
 
 const reasons = [
-  { icon: Package, text: "Пошкодження при доставці",    color: "text-orange-500", bg: "bg-orange-100" },
-  { icon: User,    text: "Спір з перевізником",          color: "text-orange-400", bg: "bg-orange-50"  },
-  { icon: Shield,  text: "Відмова страхової",            color: "text-blue-400",   bg: "bg-blue-100"   },
-  { icon: Camera,  text: "Потрібно зафіксувати збиток",  color: "text-green-500",  bg: "bg-green-100"  },
+  { icon: Package,    text: "Пошкодження при доставці",          color: "text-orange-500", bg: "bg-orange-100" },
+  { icon: User,       text: "Спір з перевізником",                color: "text-orange-400", bg: "bg-orange-50"  },
+  { icon: Shield,     text: "Відмова страхової",                  color: "text-blue-400",   bg: "bg-blue-100"   },
+  { icon: Camera,     text: "Потрібно зафіксувати збиток",        color: "text-green-500",  bg: "bg-green-100"  },
+  { icon: HeartPulse, text: "Отримали травму при перевезенні",    color: "text-red-500",    bg: "bg-red-100"    },
 ];
 
 export default function WhenToContact() {

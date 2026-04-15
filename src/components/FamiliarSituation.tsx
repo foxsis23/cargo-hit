@@ -23,7 +23,7 @@ export default function FamiliarSituation() {
                 {item.includes('"це не ми"') ? (
                   <>Перевізник каже <span className="font-medium">"це не ми"</span></>
                 ) : item.includes("Вантаж") ? (
-                  <><span className="font-bold">Ванта</span>х приїхав пошкодженим</>
+                  <><span className="font-bold">Вантаж</span> приїхав пошкодженим</>
                 ) : (
                   item
                 )}
