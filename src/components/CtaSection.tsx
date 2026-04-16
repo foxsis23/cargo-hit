@@ -14,7 +14,9 @@ export default function CtaSection() {
           Ми подивимось кейс і скажемо, як краще діяти
         </p>
         <a
-          href="#"
+          href="https://t.me/finansservis"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-[#1a6fc4] hover:bg-[#155fa0] text-white font-semibold px-8 py-3.5 rounded transition-colors duration-200 text-base"
         >
           <TelegramIcon size={20} />

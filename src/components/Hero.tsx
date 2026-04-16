@@ -27,9 +27,14 @@ export default function Hero() {
               <br className="hidden sm:block" />
               та допоможемо отримати компенсацію
             </p>
-            <button className="bg-[#1a6fc4] hover:bg-[#155fa0] text-white font-semibold px-8 py-3 rounded transition-colors duration-200 text-base cursor-pointer">
+            <a
+              href="https://t.me/finansservis"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#1a6fc4] hover:bg-[#155fa0] text-white font-semibold px-8 py-3 rounded transition-colors duration-200 text-base"
+            >
               Описати ситуацію
-            </button>
+            </a>
           </div>
         </div>
       </div>
